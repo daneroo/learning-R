@@ -10,6 +10,7 @@ for which we were using
 ## Importing CSV Files
 
     list.files(baseDir,recursive=TRUE)
+    
     dat.csv <- read.csv("/Users/daniel/Downloads/Kaggle-BelkinEnergyDisaggregation/csv/H4_CSV/Tagged_Training_07_26_1343286001/TaggingInfo.csv", header=FALSE)
     dat.csv <- read.csv("/Users/daniel/Downloads/Kaggle-BelkinEnergyDisaggregation/csv/H4_CSV/Tagged_Training_07_26_1343286001/TaggingInfo.csv", header=FALSE)
 
